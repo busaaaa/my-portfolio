@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>St Clare College</title>   
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+                    <form action="results.html" method="GET" class="form" id="form">
+                        <h1>Create Account</h1>
+                        <div class="social-icons">
+                            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <span>or use your email password</span>
+                        <div class="form-control">
+                            <label class="text">First Name</label>
+                            <input type="text" name="firstname" placeholder="Enter your first name" id="firstname">  
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+                        <div class="form-control">
+                            <label class="text">Last Name</label>
+                            <input type="text" name="lastname" placeholder="Enter your last name" id="lastname" >
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>    
+                        <div class="form-control">
+                            <label class="text">Username</label>
+                            <input type="text" name="username" placeholder="Enter your username" id="username">  
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+                        <div class="form-control">
+                            <label class="text">Email</label>
+                            <input type="email" name="email" placeholder="Enter your email"  id="email">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+                        <div class="form-control">
+                            <label class="text">Password</label>
+                            <input type="password" placeholder="Enter your password"  id="password">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error Message</small>
+                        </div>
+                    <button type="submit">Sign up</button>
+                    </form>
+                </div>
+                <div class="form-container sign-in">
+                    <form action="results.html" method="GET" id="signin">
+                        <h1>Sign In</h1>
+                        <div class="social-icons">
+                            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <span>or use your email password</span>
+
+                        <div class="form-control">
+                            <input type="text" placeholder="Enter your username" name="loginUsername" id="loginUsername">  
+                            <small>Error Message</small>
+                        </div>
+                        
+                        <div class="form-control">
+                            <input type="password" placeholder="Enter your password" name="loginPassword" id="loginPassword">
+                            <small>Error Message</small>
+                        </div>
+                        <a href="#">Forget Your Password?</a>
+                        <button type="submit" id="btn-signin">Sign In</button>
+                    </form>
+                </div>
+                <div class="toggle-container">
+                <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <img src="img/scccc.png" alt="vr man" class="img-sizes"></img>  
+                    <a href="https://storyset.com/technology"></a>
+                    <h1 class="welcome-text">Welcome Back, Clareans!</h1>
+                    <p class="features-text">THE SCHOOL OF LIFE SKILLS</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <img src="img/Virtual reality-amico.png" alt="scc logo" class="img-size"></img>   
+                    <p class="leading-text">THE LEADING EDGE IN ONLINE EDUCATION SYSTEM</p>
+                    <button class="hidden" id="register">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
